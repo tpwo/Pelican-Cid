@@ -208,7 +208,7 @@
   color: #FF6600;
 } /* Literal.Number.Integer.Long */
 * {
-  background-color: #fefefe;
+  background: transparent;
   color: #030303;
 }
 
