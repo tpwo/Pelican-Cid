@@ -1,0 +1,6 @@
+services:
+  sass-compiler:
+    build:
+      context: .
+    volumes:
+      - ./static/css:/src/css
