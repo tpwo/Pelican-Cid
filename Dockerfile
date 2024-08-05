@@ -6,6 +6,6 @@ RUN npm install -g sass
 
 WORKDIR /src
 
-COPY src/sass ./sass/sass
+COPY src/sass/ ./sass/
 
 CMD ["sass", "--no-source-map", "--style=compressed", "sass:css"]
