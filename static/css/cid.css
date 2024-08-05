@@ -222,6 +222,10 @@ code, kbd, samp {
   font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 }
 
+mark {
+  background-color: yellow;
+}
+
 body {
   font-family: "Merriweather", "Georgia", serif;
   font-weight: 300;
