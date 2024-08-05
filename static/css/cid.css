@@ -212,7 +212,13 @@
   color: #030303;
 }
 
-code, kbd, pre, samp {
+pre {
+  background-color: #f9f2f4;
+  padding: 10px;
+  margin: 10px;
+}
+
+code, kbd, samp {
   font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 }
 
