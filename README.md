@@ -62,6 +62,14 @@ live reload server and auto-compile. Note that the you would still need to have 
 installed. The `design` directory contains the static HTML draft that I used to help me decide on
 the design, the contents are no longer used and it is not kept updated to any design changes.
 
+## Rebuilding CSS with Docker
+
+Run to recompile CSS file after any changes in SASS files.
+
+```
+make build
+```
+
 # LICENSE
 MIT
 
