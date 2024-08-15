@@ -3,6 +3,7 @@
 Cid is a simple theme for static site generator, [Pelican][pelican]. 
 
 ## Features summary:
+
 * Disqus comment. `DISQUS_SITENAME` must be defined in configuration file.
 * Analytics support. `ANALYTICS` must be defined in configuration.
 * Obfuscated Email. `CONTACT_EMAIL` must be defined in the configuration file. Javascript is required to view the email address.
@@ -12,14 +13,17 @@ Cid is a simple theme for static site generator, [Pelican][pelican].
 * Pagination.
 
 ## Screenshots
+
 See in the `scrshot/` directory.
 
 ## Landing Page Template
+
 Cid includes a landing page template that can be used to generate a landing page for your site.
 To use it, simply create a static page that uses the `landing.html` template and configure it
 to be the index page of your site.
 
 ## Custom links on the landing page and footer
+
 By default, the landing page and site footer will display the list of static pages configured on the site. To replace them
 with a list of links you want, specify a `USE_CUSTOM_MENU` configuration variable to be true, and create
 `CUSTOM_MENUITEMS` tuple in the `(Title, url)` format within your configuration file to contain the list
@@ -31,11 +35,13 @@ of items you want to display. The url are specified relative to the `SITEURL`. E
                  ('Projects', 'pages/projects'))
 
 ## Custom Site Footer
+
 Define a `SITEFOOTER` in your configuration file to replace the site footer. Will default to
 Pelican and theme credit if not defined. The site footer can contains HTMl tags, but it's better to
 keep it simple as it will be printed inside a `p` tag.
 
 ## Obfuscated Email
+
 If `CONTACT_EMAIL` is configured, the theme will display the email address in a `mailto` link, but
 the email address will be printed through a Javascript ROT13 function in order to obfuscate the email addres.
 This means the email address won't be displayed if the site visitor doesn't have Javascript enabled.
@@ -49,6 +55,7 @@ PLUGINS = ['cid_filters']
 ```
 
 ## Contacts Links
+
 Additional contact information can be displayed in the same way as the custom menu item/ pages links. To use it,
 define a `CONTACTS` tuple in the configuration file.
 
@@ -72,6 +79,7 @@ make build
 ```
 
 # LICENSE
+
 MIT
 
 [pelican]: http://getpelican.com
