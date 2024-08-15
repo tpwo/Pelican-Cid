@@ -207,5 +207,36 @@ img.right, figure.right, div.figure.align-right
             line-height: 1.73333em
 
         footer
-            margin: 2em 0 3em
+            font-size: 0.8em
+            margin: 2em .5em 3em .5em
             text-align: right
+
+            .navigation
+                display: flex
+                justify-content: space-between
+                padding: 10px
+                border-top: 1px solid #ccc
+                border-bottom: 1px solid #ccc
+
+            .prev-article, .next-article
+                width: 45%
+                a
+                    text-decoration: none
+                a:hover
+                    text-decoration: underline
+
+            .prev-article-header, .next-article-header
+                font-weight: 150
+                letter-spacing: 1px
+                color: #333
+                margin: 0 0 .2em
+                padding: 0 0 .2em 0
+
+            .prev-article-content, .next-article-content
+                margin: 0 1em 0 1em
+
+            .prev-article
+                text-align: left
+
+            .next-article
+                text-align: right

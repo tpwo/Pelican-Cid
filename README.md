@@ -6,6 +6,7 @@ Cid is a simple theme for static site generator, [Pelican][pelican].
 * Disqus comment. `DISQUS_SITENAME` must be defined in configuration file.
 * Analytics support. `ANALYTICS` must be defined in configuration.
 * Obfuscated Email. `CONTACT_EMAIL` must be defined in the configuration file. Javascript is required to view the email address.
+* Integration with [pelican-neighbors](https://github.com/pelican-plugins/neighbors) plugin.
 * Responsive theme.
 * Landing Page template.
 * Pagination.
