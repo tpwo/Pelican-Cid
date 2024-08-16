@@ -249,6 +249,10 @@ body iframe {
   display: block;
 }
 
+figcaption {
+  text-align: center;
+}
+
 img.left, figure.left, div.figure.align-left {
   float: left;
   margin: 0 1.5em 0 0;
@@ -261,9 +265,6 @@ img.right, figure.right, div.figure.align-right {
 
 img.center, figure.center, div.figure.align-center {
   margin: 0 0 0 0;
-}
-img.center figcaption, figure.center figcaption, div.figure.align-center figcaption {
-  text-align: center;
 }
 
 .disclaimer {
