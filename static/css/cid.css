@@ -251,12 +251,12 @@ body iframe {
 
 img.left, figure.left, div.figure.align-left {
   float: left;
-  margin: 0 2em 2em 0;
+  margin: 0 1.5em 0 0;
 }
 
 img.right, figure.right, div.figure.align-right {
   float: right;
-  margin: 0 0 2em 2em;
+  margin: 0 0 0 1.5em;
 }
 
 .disclaimer {
