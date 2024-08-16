@@ -234,6 +234,11 @@ body {
 body a {
   font-weight: 400;
 }
+body a.footnote-ref {
+  font-size: 70%;
+  vertical-align: top;
+  font-weight: 600;
+}
 body a:hover {
   text-decoration: none;
 }
@@ -412,9 +417,6 @@ img.center, figure.center, div.figure.align-center {
 }
 .container .post h5, .container .post h6 {
   font-size: 1.18em;
-}
-.container .post a {
-  font-weight: 400;
 }
 .container .post img {
   max-width: 100%;
