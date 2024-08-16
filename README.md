@@ -40,6 +40,44 @@ Define a `SITEFOOTER` in your configuration file to replace the site footer. Wil
 Pelican and theme credit if not defined. The site footer can contains HTMl tags, but it's better to
 keep it simple as it will be printed inside a `p` tag.
 
+## Custom page URLs
+
+### Archives
+
+Set `ARCHIVES_URL` in your configuration file to replace URL to archives.
+It works well with built-in Pelican `ARCHIVES_SAVE_AS`:
+
+```python
+ARCHIVES_URL = 'blog'
+ARCHIVES_SAVE_AS = f'{ARCHIVES_URL}/index.html'
+```
+
+Default value is `archives`.
+
+### Categories
+
+Set `CATEGORIES_URL` in your configuration file to replace URL to categories.
+It works well with built-in Pelican `CATEGORIES_SAVE_AS`:
+
+```python
+CATEGORIES_URL = 'category'
+CATEGORIES_SAVE_AS = f'{CATEGORIES_URL}/index.html'
+```
+
+Default value is `categories`.
+
+### Tags
+
+Set `TAGS_URL` in your configuration file to replace URL to tags.
+It works well with built-in Pelican `TAGS_SAVE_AS`:
+
+```python
+TAGS_URL = 'tag'
+TAGS_SAVE_AS = f'{TAGS_URL}/index.html'
+```
+
+Default value is `tags`.
+
 ## Obfuscated Email
 
 If `CONTACT_EMAIL` is configured, the theme will display the email address in a `mailto` link, but
