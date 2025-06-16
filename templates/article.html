@@ -6,7 +6,12 @@
 
         <header>
             <h1>{{ article.title }}</h1>
-            <p class="date">Written on <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time></p>
+            <p class="date">
+                Written on <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
+                {% if article.modified %}
+                    (updated <time datetime="{{ article.modified.isoformat() }}">{{ article.modified.strftime('%b %d, %Y') }}</time>)
+                {% endif %}
+            </p>
         </header>
 
         <article>
