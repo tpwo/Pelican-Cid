@@ -381,6 +381,9 @@ img.center, figure.center, div.figure.align-center {
   margin-top: 2em;
   text-align: center;
 }
+.container time {
+  font-style: italic;
+}
 .container .post-list .post-overview {
   margin: 1em;
   position: relative;
